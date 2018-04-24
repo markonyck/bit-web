@@ -1,0 +1,21 @@
+.first {
+    color: DarkTurquoise;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.second {
+    color: rgb(53, 56, 56);
+    background-color: rgba(169, 164, 173, 0.5);
+}
+
+.third {
+    color: #00ced1;
+    background-color: #3b3b3a;
+}
+ .opacity {
+     opacity: 0.5;
+ }
+ .rgba{
+     background-color: rgba(0,0,255, 0.5);
+ }
