@@ -1,0 +1,61 @@
+
+@font-face {
+    font-family: 'quick';
+    src: url('font/quicksand-regular-webfont.woff2') format('woff2'),
+         url('font/quicksand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+.Title {
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.FirstP {
+    font-family: 'quick', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    text-align: left;
+}
+
+.SecondP {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-transform: lowercase;
+    text-decoration: line-through;
+    line-height: 200%;
+    text-align: right;
+
+}
+.ThirdP {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.thirdSpan {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.ussport {
+    color: darkcyan;
+    text-shadow: 5px 5px 5px rgba(150, 150, 150, 0.9);
+}
+.ussport a:link{
+    color: red;
+}
+.ussport a:visited{
+    color: black;
+}
+
+.ussport a:hover{
+    color: green;
+}
+.ussport a:active {
+    color: #0000FF;
