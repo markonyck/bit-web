@@ -1,0 +1,65 @@
+h1 {
+    width: 960px;
+    text-align: center;
+    padding: 50px 0px;
+    margin: 50px auto;
+    background-color: aliceblue;
+    color: blueviolet;
+    box-shadow: 5px 10px 15px 10px red;
+    border-radius: 5px 10px 15px 20px;
+    font-family: 'Titan One', cursive;
+}
+
+p {
+    overflow: hidden;
+}
+
+.firstPar {
+    background-color: yellow;
+    width: 400px;
+    height: 500px;
+    max-width: 300px;
+    
+
+}
+
+.secondPar {
+    background-color: red;
+    width: 600px;
+    height: 300px;
+    max-height: 200px;
+    overflow: scroll;
+}
+
+.all{
+    background-color: yellow;
+    border: 5px solid red;
+    display: inline-block;
+}
+
+#first, #third {
+    border-style: dashed; 
+    padding: 0px;
+}
+
+#first {
+    width: 300px;
+    margin: 20px;
+}
+
+#second{
+    border-color: green;
+    padding: 0px 0px 0px 0px;
+    width: 400px;
+    margin: 20;
+    display: none;
+}
+
+#third {
+    width: 200px;
+    margin: 20px;
+    visibility: hidden;
+}
+
+
+
