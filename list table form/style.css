@@ -1,0 +1,45 @@
+.firstUL {
+    list-style-type: circle;
+}
+
+.secondUL {
+    list-style-type: square;
+}
+
+.firstOL {
+    list-style-type: upper-alpha;
+}
+
+.secondOL {
+    list-style-type: upper-roman;
+}
+
+.imgList {
+    list-style-image: url('https://cdnw.nickpic.host/mMym9J.png');
+    width: 200px;
+}
+
+.inside {
+    list-style-position: inside;
+}
+#phone {
+    margin: auto;
+}
+.red {
+    background-color: red;
+}
+
+table tr td image {
+    height: 100px;
+}
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.hover:hover {
+    background-color: yellow;
+}
+
+table tr:nth-child(2n) {
+    background-color: gray;
+}
