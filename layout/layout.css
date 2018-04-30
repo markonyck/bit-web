@@ -158,7 +158,7 @@
 } */
 
 ul.meni {
-    background: red;
+    background: #C1392B;
     list-style-type: none;
     width: 960px;
     border: 1px;
@@ -193,20 +193,21 @@ ul.meni li {
 .div1 {
     height: 200px;
     width: 300px;
-    background: red;
-    position: absolute;
-    float: left;
+    background: #C1392B;
+    position: relative;
+    top: 200px;
+    right: 300px;
 }
 .div2 {
     height: 200px;
     width: 300px;
-    background:blue;
+    background: #2D3E50;
 }
 
 .div3 {
     height: 200px;
     width: 300px;
-    background:yellow;
+    
 }
 .div4 {
     height: 200px;
