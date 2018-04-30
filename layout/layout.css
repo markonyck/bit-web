@@ -1,0 +1,238 @@
+/* body {
+    position: relative;
+}
+
+.pozicija1 {
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.pozicija2 {
+    position: absolute;
+    right: 100px;
+    top: 150px;
+}
+
+.pozicija3 {
+    position: absolute;
+    bottom: 0px;
+}
+
+#top {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 250px;
+    height: 200px;
+}
+
+.div1 {
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: absolute;
+    left: 100px;
+    z-index: 1;
+}
+.div2 {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    position: absolute;
+   left: 60px;
+    z-index: 2;
+}
+.div3 {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: absolute;
+    z-index: 3;
+}
+
+.div4 {
+    width: 200px;
+    height: 200px;
+    background: green;
+    position: relative;
+    left: 100px;
+    z-index: 7;
+}
+.div5 {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    position: relative;
+   left: 60px;
+    z-index: 6;
+}
+.div6 {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: relative;
+    z-index: 5;
+}
+
+
+.div7 {
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: relative;
+    
+   
+}
+.div8 {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    position: relative;
+  
+   
+}
+.div9 {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: relative;
+    
+    
+}
+.div10 {
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: relative;
+    bottom:0px;
+    left: 0px;
+   
+}
+.div11 {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+}
+   
+.div12 {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+}
+
+.div13 {
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: relative;
+    bottom:0px;
+    left: 200px;
+    z-index: 5;
+   
+}
+.div14 {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+    z-index: 4;
+}
+   
+.div15 {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: relative;
+    bottom: 200px;
+    left: 0px;
+    z-index: 3;
+} */
+
+ul.meni {
+    background: red;
+    list-style-type: none;
+    width: 960px;
+    border: 1px;
+    float: right;
+   /* margin: 0px;*/
+   padding: 0px;
+}
+
+ul.clearfix::before, 
+ul.clearfix::after {
+    content: " ";
+    display: table;
+}
+ul.clearfix::after {
+    clear: both;
+}
+
+ul.meni li {
+    float: right;
+    margin: 10px;
+    color: azure;
+
+}
+.udemi {
+    float: right;
+    width: 960px;
+    position: absolute;
+    top: 62px;
+    right: 8px;
+}
+
+.div1 {
+    height: 200px;
+    width: 300px;
+    background: red;
+    position: absolute;
+    float: left;
+}
+.div2 {
+    height: 200px;
+    width: 300px;
+    background:blue;
+}
+
+.div3 {
+    height: 200px;
+    width: 300px;
+    background:yellow;
+}
+.div4 {
+    height: 200px;
+    width: 300px;
+    background: green;
+}
+.div5 {
+    height: 200px;
+    width: 300px;
+    background: red;
+}
+.div6 {
+    height: 200px;
+    width: 300px;
+    background:blue;
+}
+
+.div7 {
+    height: 200px;
+    width: 300px;
+    background:yellow;
+}
+.div8 {
+    height: 200px;
+    width: 300px;
+    background: green;
+}
+
+
