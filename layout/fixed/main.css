@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+header {
+   display: inline;
+   padding-bottom: 60px;
+   
+}
+img {
+    border-radius: 100%;
+    float: left;
+    width: 5em;
+    margin-right: 20px;
+}
+h1 {
+   font-weight: lighter;
+   font-size: 36px;
+}
+header p {
+    font-size: 12px;
+}
+main {
+    margin-top: 80px;
+}
+.left{
+    float: left;
+    width: 350px;
+}
+.right{
+    float: right;
+    width: 570px;
+    border-left: solid 1.5px;
+    padding-left: 30px;
+}
+h3 {
+    margin-top: 0px;
+}
