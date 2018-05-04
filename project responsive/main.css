@@ -1,10 +1,16 @@
 body {
     margin: 0;
 }
+@font-face {
+    font-family: robotoRegular;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
 
 * {
     box-sizing: border-box;
     width: 100%;
+    font-family: robotoRegular;
 }
 
 /* Mobile view */
@@ -16,6 +22,7 @@ body {
         width: 100%;
         margin: 0;
     }
+    
     .headline{
         background-image: url(images/banner3.jpg);
         width: 100%;
@@ -65,12 +72,152 @@ body {
     header ul li a{
         text-decoration: none;
         color: white;
-        font-size: 20px;
+        font-size: 18px;
         padding: 5px;
         display: block;
+        font-weight: bold;
+    }
+    
+    main h3{
+        font-size: 32px;
+        text-align: center;
+        margin-top: 70px;
+    }
+    .linedecoration{
+       
+        margin: 0 auto;
+        width: 145px;
+        margin-top: -10px;
+        
+
+
+    }
+    .clearfix:before,
+    .clearfix:after{
+        content: "";
+        display: table;
+    }
+    .clearfix:after{
+        clear: both;
+    }
+    .lineleft{
+        border-top: 2px solid;
+        width: 50px;
+        float: left;
+        margin-right: 10px;
+        
+        
+    }
+    .romb {
+        border: 2px solid;
+        width: 20px;
+        height: 20px;
+        transform: rotate(45deg);
+        float: left;
+        margin-top: -10px;
+    
+
+    }
+    .lineright{
+        border-top: 2px solid;
+        width: 50px;
+        float: left;
+        margin-left:10px; 
+       
+    }
+    
+
+    h4{
+        color:rgb(110, 166, 250);
+        font-size: 20px;
+        text-indent: 40px;
     }
 
+    main p{
+        font-size: 1.1em;
+        /* font-weight: 550; */
+        width: 85%;
+        letter-spacing: 1px;
+        margin: 0 auto;
+        line-height: 24px;
+    }
+    main ul{
+        padding-left: 60px;
+    }
+    main ul li{
+        list-style-image: url(images/arrow_bullet.png);
+        padding: 10px;
+        color: rgb(82, 78, 78);
+        letter-spacing: 1px;
+        font-size: 1.1em;
+    }
+    
+    main img{
+        display: block;
+        width: 85%;
+        margin: 0px auto;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    main div.people ul{
+        float: left;
+        display: inline-block;
+        widows: 90%;
+        padding-left: 30px;
+        margin: 10px 0;
+    }
+    
+    main div.people ul li{
+        list-style: none;
+        background-color: rgb(81, 169, 228);
+        display:inline-block;
+        margin: 10px 0;
+        
+    }
+    main div.people ul li img{
+        float: left;
+        border-radius: 100%;
+        border: 1px solid white;
+        padding: 5px;
+        width: 80px;
+        margin-left: 15px;
        
+    }
+    /* h5{
+        display: inline;
+        color: black;
+        padding-left: 20px;
+        
+    } */
+    div.listheading{
+        float:left;
+        width: 200px;
+        margin-top: 20px;
+        
+        
+    }
+    .listheading p{
+        display: block;
+        color: black;
+        font-weight: 600;
+        
+       
+    }
+    .stars i{
+        display: inline;
+        font-size:18px;
+        color:white;
+        
+    }
+    .peopletext{
+        clear: both;
+        color: white;
+        margin-top: 10px;
+        width: 90%;
+    }
+
+
+
     .social-icons img {
         display: block;
         width: 24px;
@@ -83,9 +230,6 @@ body {
     }
     iframe {
         width:300px;
-    }
-    .people p{
-        text-align: 
     }
 }
 
