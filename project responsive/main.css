@@ -1,6 +1,7 @@
 body {
     margin: 0;
 }
+
 @font-face {
     font-family: robotoRegular;
     src: url(fonts/Roboto-Regular.ttf);
@@ -16,7 +17,7 @@ body {
 /* Mobile view */
 @media  screen and (min-width: 320px) and (max-width: 768px) {
     body {
-        margin: 0;
+        margin: 0 auto;
     }
     header {
         width: 100%;
@@ -29,6 +30,7 @@ body {
         background-size: cover;
         padding: 50px;
     }
+
     h2  {
         color: white;
         text-transform: uppercase;
@@ -36,6 +38,7 @@ body {
         margin: 0 auto;
         display: inline-block;
     }
+
     .headline button {
         display: block;
         color: white;
@@ -46,29 +49,33 @@ body {
         width: 100px;
         border: none;
     }
+
     h1 {
        font-size: 30px;
        text-transform: uppercase;
        margin-top: 20px;
        text-align: center;
+
     }
     h1 .first{ 
         border: 4px solid rgb(117, 114, 114);
         border-right: 0px;
         color: orange;
     }
+
     h1 .second{
         color:rgb(117, 114, 114);
     }
+
     header ul{
         background-color: rgb(117, 182, 235);
         margin: 0px auto;
         text-align: center;
         list-style: none;
         width: 90%;
-        padding: 5px 0px;
-        
+        padding: 5px 0px; 
     }
+
     header ul li a{
         text-decoration: none;
         color: white;
@@ -83,15 +90,13 @@ body {
         text-align: center;
         margin-top: 70px;
     }
+
     .linedecoration{
-       
         margin: 0 auto;
         width: 145px;
         margin-top: -10px;
-        
-
-
     }
+
     .clearfix:before,
     .clearfix:after{
         content: "";
@@ -100,14 +105,14 @@ body {
     .clearfix:after{
         clear: both;
     }
+
     .lineleft{
         border-top: 2px solid;
         width: 50px;
         float: left;
         margin-right: 10px;
-        
-        
     }
+
     .romb {
         border: 2px solid;
         width: 20px;
@@ -115,17 +120,14 @@ body {
         transform: rotate(45deg);
         float: left;
         margin-top: -10px;
-    
-
     }
+
     .lineright{
         border-top: 2px solid;
         width: 50px;
         float: left;
         margin-left:10px; 
-       
     }
-    
 
     h4{
         color:rgb(110, 166, 250);
@@ -141,9 +143,11 @@ body {
         margin: 0 auto;
         line-height: 24px;
     }
+
     main ul{
         padding-left: 60px;
     }
+
     main ul li{
         list-style-image: url(images/arrow_bullet.png);
         padding: 10px;
@@ -159,6 +163,7 @@ body {
         padding-top: 20px;
         padding-bottom: 10px;
     }
+
     main div.people ul{
         float: left;
         display: inline-block;
@@ -171,8 +176,7 @@ body {
         list-style: none;
         background-color: rgb(81, 169, 228);
         display:inline-block;
-        margin: 10px 0;
-        
+        margin: 10px 0;  
     }
     main div.people ul li img{
         float: left;
@@ -181,34 +185,27 @@ body {
         padding: 5px;
         width: 80px;
         margin-left: 15px;
-       
     }
-    /* h5{
-        display: inline;
-        color: black;
-        padding-left: 20px;
-        
-    } */
+
     div.listheading{
         float:left;
         width: 200px;
-        margin-top: 20px;
-        
-        
+        margin-top: 20px;    
     }
+
     .listheading p{
         display: block;
         color: black;
         font-weight: 600;
-        
-       
     }
+
     .stars i{
         display: inline;
         font-size:18px;
         color:white;
         
     }
+    
     .peopletext{
         clear: both;
         color: white;
@@ -216,14 +213,136 @@ body {
         width: 90%;
     }
 
+    main .main-two {
+        margin-top: 100px;
+        height: 100px;
+        position: absolute;
+        top:2350px;
 
+    }
+
+     main .main-two h3{
+        font-size: 32px;
+        text-align: center;
+        padding-top: 250px;
+        height: 100px;
+    }
+
+    main .main-two .linedecoration .lineleft{
+        border-top: 2px solid;
+        width: 50px;
+        float: left;
+        margin-right: 10px;
+        position: relative;
+        top: 35px;
+    }
+
+    main .main-two .linedecoration .romb {
+        border: 2px solid;
+        width: 20px;
+        height: 20px;
+        transform: rotate(45deg);
+        float: left;
+        margin-top: -10px;
+        position: relative;
+        top: 35px;
+    }
+
+    main .main-two .linedecoration .lineright{
+        border-top: 2px solid;
+        width: 50px;
+        float: left;
+        margin-left:10px; 
+        position: relative;
+        top: 35px;
+    }
+
+    .contact{
+        background-color: rgb(58, 221, 154);
+        position: relative;
+        top: 60px;
+        width: 100%;
+        height: 200px;
+    }
+
+    .contact h6{
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        font-size: 26px;
+        margin: 0 auto;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-family: robotoRegular;
+        font-weight: normal;
+    }
+
+    .contact p{
+        display: block;
+        align-content: center;
+        margin: 0px auto;
+        padding-bottom: 10px;
+        color: white;
+        text-decoration: none;
+
+    }
+
+    .contact p i {
+        display: inline;
+        padding-right: 20px;
+        padding-left: 130px;
+        color: white;
+    }
+
+    .contact p a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .connect{
+        background-color: rgb(252, 82, 130);
+        position: relative;
+        top:60px;
+        width: 100%;
+        height: 200px;
+    }
+    .connect h6{
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        font-size: 26px;
+        margin: 0 auto;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-family: robotoRegular;
+        font-weight: normal;
+    }
+
+    .connect .social-icons{
+        display: inline;
+        width: 100%;
+        
+    }
+
+    .connect .social-icons li{
+        list-style: none;
+        padding-left: 20px;
+        margin: 0px auto;
+        
+    }
+    .connect .social-icons li a i{
+        color: white;
+    }
 
     .social-icons img {
-        display: block;
+        display: inline;
         width: 24px;
+        height: auto;
+        float: left;
+        color: white;
     }
     .people img {
-        width:50px
+        width:50px;
     }
     .home img {
         width:100px;
