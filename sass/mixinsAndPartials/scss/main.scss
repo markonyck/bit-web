@@ -1,0 +1,27 @@
+@import "_variables";
+@import "_mixins";
+@import "_extends";
+
+p {
+    background-color: rgb(253, 253, 252);
+    font-size: 24px;
+    color: rgb(125, 207, 255);
+    @include text-shadow();
+    @include box-shadow();
+}
+
+.red-p {
+    @extend .font;
+    @extend .border;
+    border-color: red;
+}
+
+.blue-p {
+    @extend .font;
+    border: 3px solid blue;
+}
+
+.green-p {
+    @extend .font;
+    border: 3px solid green;
+}
