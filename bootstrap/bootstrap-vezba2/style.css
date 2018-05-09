@@ -1,0 +1,26 @@
+.nav-content {
+    background-color: rgb(177, 17, 17);
+}
+
+.nav-content li a {
+    color: beige;
+}
+
+.main-img {
+    width: 100%;
+    margin-top:2px;
+    margin-bottom: 4px;
+}
+
+.bg-color li {
+    background-color: rgb(245, 199, 48);
+}
+
+
+.margin-space {
+    margin: 10px 0;   
+}
+
+footer {
+    background-color: rgb(37, 37, 150);
+}
