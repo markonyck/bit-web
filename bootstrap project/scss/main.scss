@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+@import 'variables';
+
+* {
+    font-family: Lato;
+}
+.nav-color {
+    background-color: $blue-color;
+}
+
+.navbar-light {
+    .bit-student {
+        color: $white-color;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .navbar-collapse {
+        .navbar-nav  {
+            .nav-link1 {
+                color: $white-color;
+                font-weight: 800;
+
+                &:hover {
+                    color: $white-color;
+                    
+                }
+                &:active {
+                    color: $white-color;
+                    font-weight: 600px;
+                }
+            }
+        }
+    }
+    .nav-button {
+        font-size: 16px;
+        border: none;
+        height: 40px;            
+        background-color:  $blue-color;
+        border: 1px solid white;
+
+        &:focus {
+               outline: none;
+            }
+        .nav-menu {
+            color: $white-color;
+            padding-right: 5px;
+        }
+    
+        .fa-bars {
+            color: $white-color;
+        }
+    }
+}
+
+.profile-headtitle {
+    background-color: $green-color;
+    padding: 64px 0px 0px 0px;
+    img {
+        display: block;
+        margin: 0px auto;
+        width: 100%;
+        max-width: 300px;
+    }
+    .jumbotron-color {
+        background-color: $green-color;
+        margin-bottom: 0px;
+        h1 {
+            color: $white-color;
+            text-align: center;
+            font-size: 36px;
+        }
+        p {
+            color: $white-color;
+            text-align: center;
+        }
+        .my4-line {
+            color: $white-color;
+            width: 50%;
+            border-top: 2px solid $white-color;
+        }
+    }
+    
+}
+
+.row {
+    img {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
