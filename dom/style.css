@@ -1,0 +1,15 @@
+
+.bg-color{
+    background-color: rosybrown;
+}
+
+.li-bg {
+    background-color: blueviolet;
+}
+.li-third{
+    background-color: blanchedalmond;
+    text-transform: uppercase;
+}
+.active{
+    background-color: chartreuse;
+}
