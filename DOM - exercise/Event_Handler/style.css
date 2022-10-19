@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    padding-top: 150px;
+    background-color:rgb(207, 187, 209)
+}
+
+button {
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(71, 166, 255);
+}
+
+.bg-color {
+    background-color: rgb(44, 44, 70);
+}
+
+#automatic {
+    margin-top: 30px;
+    background-color: rgb(196, 196, 16);
+}
